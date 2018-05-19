@@ -1,2 +1,2 @@
 # car-detection
-This is the implementation of You Only Look Once (YOLO) Algorithm proposed by https://arxiv.org/abs/1506.02640 to do car detection Drive.ai dataset.
+This is the implementation of You Only Look Once (YOLO) Algorithm proposed by https://arxiv.org/abs/1506.02640 to do car detection Drive.ai dataset with Keras. Each image is fed forward through the pretrained YOLO network with pretrained weights obtained from https://pjreddie.com/darknet/yolo/ and perform non-max supression at the end to remove overlapping boxes. This project is done as part of Coursera Deep Learning Specialization. 
